@@ -1,0 +1,31 @@
+.layout {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-right: 16px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 6px;
+}
+
+.heading {
+	height: 22px;
+	font-size: 13px;
+	margin: 5px;
+	font-weight: 600;
+	line-height: 150%;
+	color: #221f20;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.empty_field {
+	margin: 8px 0 0;
+}

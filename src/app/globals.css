@@ -33,3 +33,33 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.login_form{
+  background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #077eff;
+  margin: 20px 0px  12px 120px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.displayText{
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+
+.action{
+  color: #077eff;
+  font-weight: 600;
+  cursor: pointer;
+}
